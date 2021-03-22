@@ -1,5 +1,5 @@
-INSERT 1000 rows in a loop
-DURIng executing, read data
+INSERT 1000 rows in a loop on Master.
+While executing, read data on slave s1:
 
 mysql> select count(*) from Authors;
 +----------+
